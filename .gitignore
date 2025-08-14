@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & virtualenv
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode / PyCharm settings
+.vscode/
+.idea/
+
+# SQLite (if any local DB used for dev)
+*.sqlite3
+
+# PostgreSQL dump files
+*.sql
+*.dump
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled / cache files
+*.so
+*.pyd
+*.pyo
+*.pyd
+*.dll
+*.dylib
+
+# Test & coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*,cover
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Migrations (optional — if you want to regenerate)
+migrations/
+
+# Node modules (if you have frontend assets in repo)
+node_modules/
+
+# Static/media files uploaded by users
+/media/
+staticfiles/
+
+# Postman collections (optional if not sharing in repo)
+*.postman_collection.json
+
+# Backup files
+*.bak
+*.tmp
+*.swp
