@@ -30,3 +30,18 @@ Includes authentication, user management, product catalog, cart system, orders, 
 ---
 
 ## 🗂 Project Structure
+
+ecommerce-backend/
+│── app/
+│ ├── main.py # FastAPI entry point
+│ ├── database.py # DB connection
+│ ├── models.py # SQLAlchemy models
+│ ├── schemas.py # Pydantic schemas
+│ ├── routes/
+│ │ ├── auth.py # Authentication routes
+│ │ ├── products.py # Product routes
+│ │ ├── cart.py # Cart routes
+│ │ ├── orders.py # Order routes
+│ │ ├── address.py # Address CRUD routes
+│ ├── auth/ # JWT helper functions
+│ ├── utils/ # Helper utilities
